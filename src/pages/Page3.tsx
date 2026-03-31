@@ -53,28 +53,28 @@ const sandFixingTechData = [
     rate: 90,
     area: '流动沙丘/重度沙化区',
     description: '在流动沙丘等重度沙化区，草方格沙障的固沙率达90%以上，为植被恢复创造条件。',
-    image: '/src/assets/images/草方格沙障.jpg'
+    image: '/images/草方格沙障.jpg'
   },
   {
     name: '植物纤维沙障',
     rate: 85,
     area: '半流动沙地',
     description: '环保可降解，适用于半流动沙地的治理。',
-    image: '/src/assets/images/植物纤维可降解沙障.jpg'
+    image: '/images/植物纤维可降解沙障.jpg'
   },
   {
     name: '植物活体沙障',
     rate: 88,
     area: '缓坡沙地/河岸带',
     description: '用山生柳、沙棘等乡土灌木扦插形成屏障，兼具固沙与生态修复功能。',
-    image: '/src/assets/images/植物活体沙障.jpg'
+    image: '/images/植物活体沙障.jpg'
   },
   {
     name: '柳条沙障',
     rate: 82,
     area: '干涸河道/河岸沙化区',
     description: '适应水湿条件，特别适合在干涸河道和河岸沙化区域使用。',
-    image: '/src/assets/images/柳条沙障.jpg'
+    image: '/images/柳条沙障.jpg'
   }
 ];
 
@@ -433,7 +433,7 @@ export default function Page3() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                   <div className="bg-white p-6 rounded-lg shadow-md">
                     <h4 className="text-lg font-semibold text-green-800 mb-4">草灌结合模式</h4>
-                    <img src="/src/assets/images/草灌结合3.jpg" alt="草灌结合模式" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/草灌结合3.jpg" alt="草灌结合模式" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <i className="fa-solid fa-check-circle text-green-600 mt-1 mr-2"></i>
@@ -452,7 +452,7 @@ export default function Page3() {
                   
                   <div className="bg-white p-6 rounded-lg shadow-md">
                     <h4 className="text-lg font-semibold text-green-800 mb-4">适生植物优选</h4>
-                    <img src="/src/assets/images/适生植物-金露梅.jpg" alt="适生植物优选" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/适生植物-金露梅.jpg" alt="适生植物优选" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <i className="fa-solid fa-leaf text-green-600 mt-1 mr-2"></i>
